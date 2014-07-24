@@ -1,0 +1,214 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+
+% Set your name here
+\def\name{Bo Jiang}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{http://www.geniusy.com/jiangbo-cv.pdf}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {finance, economics, statistics},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+    \setlength{\itemsep}{0pt}
+  }
+}{
+  \end{list}
+}
+
+\renewcommand\arraystretch{1.35}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+\begin{minipage}{0.55\linewidth}
+  School of Finance \\
+  \href{http://www.swufe.edu.cn/}{Southwestern University of Finance and Economics} \\
+  Liutai Avenue, Wenjiang District\\
+  Chengdu, Sichuan, PR. China 611130
+\end{minipage}
+\vspace{0.25in}
+\begin{minipage}{0.40\linewidth}
+  Phone: ($+$86) 186-2800-0989 \\
+  Email: \href{mailto:geniusy.jiang@gmail.com}{\tt geniusy.jiang@gmail.com} \\
+  Homepage: \href{http://www.geniusy.com/}{\tt http://www.geniusy.com/} \\
+\end{minipage}
+
+\vspace{-1.5em}
+\section*{Personal}
+\begin{itemize}
+\item Gender: Male\qquad Age: 26 \qquad Nationality: Chinese \qquad Place of Birth: Chongqing
+\end{itemize}
+
+\section*{Education}
+\begin{itemize}
+  \item Ph.D. Finance, Southwestern University of Finance and Economics, 2010-Present.
+  \item B.A. Auditing (ACCA), Nanjing Audit University, 2005-2009.
+\end{itemize}
+
+\section*{Research Interest}
+\begin{itemize}
+\item Corporate Finance, Capital Market
+\end{itemize}
+
+\section*{Working Paper}
+\begin{itemize}
+\item "Security Investment Performance of Listed Companies: An Emperical Study of Chinese Stock Market." (With Qizhi Tao)
+\end{itemize}
+
+\section*{Working in Progress}
+\begin{itemize}
+\item "Security Investment of Chinese Listed Companies: A Shareholder Wealth Maximation Perspective." (With Qizhi Tao)
+\item "Portfolio Turnover and Pre-expense Performance of Chinese Security Investment Fund." 
+\end{itemize}
+
+\section*{Teaching Experience}
+\begin{itemize}
+\item Instructor, {\it Introduction to Statistics} (Junior College Student level), Dec. 2011.
+\item Teaching Assistant, {\it Corporate Finance} (3rd undergraduate, In English), Fall, 2011.
+\item Teaching Assistant, {\it Fundamentals of Management} (2nd undergraduate, In English), Spring, 2011.
+\item Teaching Assistant, {\it Accounting} (2nd undergraduate, In English), Fall, 2010.
+\end{itemize}
+
+\section*{Work Experience}
+\begin{itemize}
+\item 2011/07-2011/09: Team leader of the largest survey team of China Household Finance Survey, SWUFE
+\item 2010/01-2010/03: Assistant Gold Analyst in Wuhan Fudatianyu Investment Co.
+\item 2008/07-2008/08: Intern of P.R. Department in ACCA Shanghai Office
+\end{itemize}
+
+\section*{Social Work}
+\begin{itemize}
+\item 2006/10-2011/10: Founder and CEO of the largest Chinese ACCA website 52ACCA.com
+\item 2008/01-2008/07: Chief of Press and Communication Center, Student Union, NAU
+\item 2007/08-2008/01: Director of IT Department, Student Union, NAU
+\item 2006/06-2007/07: Member of Network Management Team, Network Management Center, NAU
+\item 2006/06-2007/07: Director of Web Studio, Department of Publicity, Youth League Committee, NAU
+\item 2006/04-2007/04: Director of IT Department, Student Union, School of International Audit, NAU
+\item 2005/10-2006/07: Director of Financial Department, Computer Club, NAU
+\end{itemize}
+
+\section*{Certificates \& Qualification}
+\vspace{-1em}
+\begin{table}[!htbp]
+\begin{tabular}[c]{ll}
+\hspace{0.85em}Association of Chartered Certified Accountants (ACCA):&\qquad 10 Courses (out of 14)\\
+\hspace{0.85em}Certified Information Systems Auditor (CISA):&\qquad 562 (Pass Score is 450)\\
+\hspace{0.85em}Bloomberg Assessment Test (BAT):&\qquad 76.13 (Among the top 3\% both in China and globally) \\
+\hspace{0.85em}CET-6:&\qquad 601\\
+\hspace{0.85em}CET-4:&\qquad 609\\
+\hspace{0.85em}National Computer Rank Exam level 3-Networking:&\qquad Pass\\
+\hspace{0.85em}Jiangsu Computer Rank Exam level 2-VFP:&\qquad Excellent\\
+\end{tabular}
+\end{table}
+\vspace{-1.5em}
+
+\section*{Computational Skills}
+\subsection*{Languages:}
+\begin{itemize}
+\item \textbf{For Programming:} C (Good), Visual Basic (Good), Pascal(Basic)
+\item \textbf{For Website Service:} HTML+CSS (Good), PHP (Basic)
+\end{itemize}
+
+\subsection*{Softwares:}
+\begin{itemize}
+\item \textbf{Mathematics and Statistics Softwares:} Stata (Excellent), SAS (Good), Eviews (Good), Matlab (Basic), R (Basic)
+\item \textbf{Database Management System:} SQL Server (Good), Visual FoxPro (Good), MySQL (Good), Access (Good)
+\item \textbf{Graphics:} Photoshop (Basic), Flash (Basic)
+\item \textbf{Office and Word Processing:} \LaTeX\ (Excellent), Word (Excellent), Excel (Excellent), PowerPoint (Excellent)
+\end{itemize}
+
+\subsection*{Operating Systems:}
+\begin{itemize}
+\item \textbf{Windows:} familiar with every version, both server and desktop one
+\item \textbf{Mac OS:} major OS since 2008
+\item \textbf{Linux:} familiar with various distributions, both server and desktop version
+\end{itemize}
+
+\section*{Honors \& Awards}
+\begin{itemize}
+\item First-Class Academic Scholarship, SWUFE, 2011 to 2012
+\item Excellent Graduate Students Scholarship, SWUFE, 2011 to 2012
+\item Second-Class Academic Scholarship, SWUFE, 2010 to 2011
+\item Third-Class Scholarship for Outstanding Students, NAU, 2005 to 2006
+\item Second-Class ACCA Scholarship for Outstanding Students, NAU, 2006 to 2007
+\item Excellent Student Cadre Scholarship, NAU, 2007 to 2008
+\item Third-Class ACCA Scholarship for Outstanding Students, NAU, 2007 to 2008
+\end{itemize}
+
+\bigskip
+
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today \\
+    \href{\footerlink}{\texttt{\footerlink}}
+  \end{footnotesize}
+\end{center}
+
+\end{document}

@@ -1,0 +1,209 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[a4paper]{article}
+\usepackage[BoldFont,SlantFont]{xeCJK}
+\usepackage{xcolor}
+\setmainfont{Times New Roman}
+\setCJKmainfont[BoldFont={STXihei},ItalicFont={KaiTi}]{SimSun}
+\usepackage{hyperref}
+\usepackage{geometry}
+\newcommand{\wuhao}{\fontsize{11pt}{\baselineskip}\selectfont}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+%\usepackage[T1]{fontenc}
+%\usepackage[sc,osf]{mathpazo}
+
+% Set your name here
+\def\name{姜波}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{http://www.geniusy.com/jiangbo-cv-chinese.pdf}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {金融, 经济, 统计},
+  pdftitle = {\name: 简历},
+  pdfsubject = {简历},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={16cm, 24cm},
+  left=2.5cm,
+  top=2cm
+}
+
+% Customize page headers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead[C]{\includegraphics[scale=0.6]{logo2.jpg}}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[C]{\thepage}
+\headheight=2cm
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength{\parindent}{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+    \setlength{\itemsep}{0pt}
+  }
+}{
+  \end{list}
+}
+
+\renewcommand\arraystretch{1.35}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+\begin{minipage}{0.55\linewidth}
+  \href{http://www.swufe.edu.cn/}{西南财经大学} \\
+  金融学院 \\
+  四川省成都市温江区柳台大道 611130
+\end{minipage}
+\vspace{0.25in}
+\begin{minipage}{0.40\linewidth}
+  手机: ($+$86)186-2800-0989 \\
+  邮箱: \href{mailto:geniusy.jiang@gmail.com}{\tt geniusy.jiang@gmail.com} \\
+  主页: \href{http://www.geniusy.com/}{\tt http://www.geniusy.com/}
+\end{minipage}
+
+\vspace{-1.5em}
+\section*{个人信息}
+\begin{itemize}
+\item 性别: 男\hspace{1em}年龄: 26\hspace{1em}籍贯: 重庆
+\end{itemize}
+
+\section*{教育信息}
+\begin{itemize}
+  \item 西南财经大学金融学院，金融学，硕博连读，2010--至今
+  \item 南京审计学院国际审计学院，审计学（ACCA方向），本科，2005--2009
+\end{itemize}
+
+\section*{研究方向}
+\begin{itemize}
+\item 公司金融、资本市场
+\end{itemize}
+
+\section*{教学经历}
+\begin{itemize}
+\item 讲师，{\it 统计学概论}（西南财经大学成人教育学院专科），2011年12月
+\item 助教，{\it 公司金融}（三年级本科，全英文），2011秋期
+\item 助教，{\it 管理学原理}（二年级本科，全英文），2011年春期
+\item 助教，{\it 会计学}（二年级本科，全英文），2010秋期
+\end{itemize}
+
+\section*{工作经历}
+\begin{itemize}
+\item 2011/07--2011/09：中国家庭金融调查广东组（人数最多的组）督导兼领队
+\item 2010/01--2010/03：武汉富达天宇投资咨询有限公司实习，任助理黄金分析师
+\item 2008/07--2008/08：爱楷企业管理咨询有限公司（即ACCA上海代表处）公关部实习
+\end{itemize}
+
+\section*{社会工作}
+\begin{itemize}
+\item 2006/10--2011/10：ACCA学习网（52ACCA.com）创始人兼站长
+\item 2008/01--2008/07：南京审计学院学生会新闻宣传中心主任
+\item 2007/08--2008/01：南京审计学院学生会网络工作室部长
+\item 2006/06--2007/07：南京审计学院网络管理中心网络协管小组成员
+\item 2006/06--2007/07：南京审计学院团委宣传部网站工作室组长
+\item 2006/04--2007/04：南京审计学院国际审计学院学生会网络技术部部长
+\item 2005/10--2006/07：南京审计学院计算机协会财务部部长
+\end{itemize}
+
+\newpage
+\section*{资格与证书}
+\vspace{-1em}
+\begin{table}[!htbp]
+\begin{tabular}[c]{ll}
+\hspace{0.85em}ACCA（英国公认注册会计师，英文）：&\qquad 通过10门 (共14门)\\
+\hspace{0.85em}CISA（国际注册信息系统审计师，英文版）：&\qquad 562 (450分通过)\\
+\hspace{0.85em}Bloomberg Assessment Test（BAT）：&\qquad 76.13 (中国及全球排名前3\%)\\
+\hspace{0.85em}CET-6：&\qquad 601分\\
+\hspace{0.85em}CET-4：&\qquad 609分\\
+\hspace{0.85em}国家计算机等级考试三级-网络技术：&\qquad 合格\\
+\hspace{0.85em}江苏省计算机等级考试二级-VFP：&\qquad 优秀\\
+\end{tabular}
+\end{table}
+\vspace{-1.5em}
+
+\section*{电脑技能}
+\subsection*{编程语言：}
+\begin{itemize}
+\item {\bfseries 程序设计}：C（良好），Visual Basic（良好），Pascal（基础）
+\item {\bfseries 网页设计}：HTML+CSS（熟练），PHP（基础)，ASP（基础）
+\end{itemize}
+
+\subsection*{应用软件：}
+\begin{itemize}
+\item {\bfseries 统计及计算软件}：SAS（熟练），Stata（熟练），Eviews（熟练），Matlab（基础），R（基础）
+\item {\bfseries 数据库系统}：SQL Server（良好），Visual FoxPro（良好），MySQL（基础），Access（良好）
+\item {\bfseries 图像处理}：Photoshop (基础), Flash (基础)
+\item {\bfseries 办公与排版软件}：\LaTeX （熟练），Word（熟练），Excel（熟练），PowerPoint（熟练）
+\end{itemize}
+
+\subsection*{操作系统：}
+\begin{itemize}
+\item {\bfseries Windows}：1998年开始使用，熟练操作每个版本的桌面版和服务器版
+\item {\bfseries Mac OS}：2008年后主要操作系统
+\item {\bfseries Linux}：熟练操作多个发行版的桌面版和服务器版
+\end{itemize}
+
+\section*{荣誉与奖励：}
+\begin{itemize}
+\item 西南财经大学2011--2012学年研究生一等学术奖学金
+\item 西南财经大学2010--2011学年优秀研究生奖学金
+\item 西南财经大学2010--2011学年研究生二等学术奖学金
+\item 南京审计学院2007--2008学年ACCA优秀学生奖学金三等奖
+\item 南京审计学院2007--2008学年校优秀学生会干部
+\item 南京审计学院2006--2007学年ACCA优秀学生奖学金二等奖
+\item 南京审计学院2005--2006学年校优秀学生奖学金三等奖
+\end{itemize}
+
+\bigskip
+
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today \\
+    \href{\footerlink}{\texttt{\footerlink}}
+  \end{footnotesize}
+\end{center}
+
+\end{document}
