@@ -1,13 +1,23 @@
 \documentclass[a4paper,12pt,line, margin]{res}
 \usepackage{CJK}
 \usepackage{url}
+\usepackage{graphicx}
+%\usepackage{picinpar}
+
 \begin{document}
 \begin{CJK}{GBK}{kai}
+
 %\name{Max Burstein}
-\name{杨现}
+\name{\Huge{杨现}}
 \address{苏州市工业园区若水路398号}
 \address{yangxian10@gmail.com \\ 15952446119}
+%\moveleft.5\hoffset\centerline{15952446119}
 %\address{15952446119}
+
+\begin{figure}[h]
+\raggedleft
+\includegraphics[width=0.18\textwidth]{yang.jpg}
+\end{figure}
 
 \begin{resume}
 
@@ -35,24 +45,26 @@
 %Was the starting center for the Detroit Red Wings until the strike :( Looking to play across the pond for a little bit. \\ [10pt]
 %\textit{Green Bay Packers Starting Wide Receiver} \hfill 2010-2011 \\
 %Was the starting WR for the Green Bay Packers during our super bowl run. I caught the game winning touchdown and decided to retire on top.
-\textbf{全国大学生电子设计竞赛} \hfill 2009.4-2009.9 \\
-\begin{itemize}
-\item 组建3人参赛团队并任队长，分配队友任务，完成校内培训和选拔赛。
-\item 制作了开关电源，音频功放，数控避障小车等10余个电子模块，涉及数字信号处理，单片机程序设计，模拟电子线路设计等领域的知识，学会了如何把书本知识应用到实际工程中。
-\item 在最终4 天3 夜的比赛中设计实现了一台数字滤波器，用FPGA 和单片机实现，组织方案的设计讨论并制定了各阶段的任务分工。
-\end{itemize}%\\ [10pt]
-
-\textbf{深圳威富集团智能主动安防研发中心} \hfill 2012.3-2012.4 \\
+\textbf{深圳威富集团智能主动安防研发中心} \hfill 2012.3-2014.4 \\
 \begin{itemize}
 \item 独立完成了非特定目标的视频目标跟踪算法的设计和优化，实现了动态背景下非特定目标的鲁棒跟踪，并发表了文章
 \item 参与单一样本人脸识别算法的设计和讨论，调试优化算法参数，在实验条件下达到了93\%的人脸识别率
 \end{itemize}
 
+\textbf{全国大学生电子设计竞赛} \hfill 2009.4-2009.9 \\
+\begin{itemize}
+\item 组建3人参赛团队并任队长，分配队友任务，完成校内培训和选拔赛。
+\item 制作了开关电源，音频功放，数控避障小车等10 余个电子模块，涉及数字信号处理，单片机程序设计，模拟电子线路设计等领域的知识，学会了如何把书本知识应用到实际工程中。
+\item 在最终4 天3 夜的比赛中设计实现了一台数字滤波器，用FPGA 和单片机实现，组织方案的设计讨论并制定了各阶段的任务分工。
+\end{itemize}%\\ [10pt]
+
+
+
 \section{科研经历}
 \textbf{非特定目标的视觉跟踪研究} \hfill 2012.3-now \\
 \begin{itemize}
-\item 提出了基于DPM模型目标特征表达，并且使用了binary特征提高了算法的速度，学习算法没有使用传统的分类算法，我们把样本看成是连续的label，采用fern回归算法提高了跟踪的准确度。
-\item 提出了基于structure output的模型结构，采用数据驱动深度学习的方法得到目标的特征表达。学习更新阶段，不人工设置样本的标签，采用partial annotation的online svm算法。整个算法充分利用了先验知识和样本自身的属性，极大的减少了人工干预在算法中的作用，提高了算法的自适应能力。
+\item 提出了一种基于DPM模型目标特征表达，并且使用了binary特征提高了算法的速度，学习算法没有使用传统的分类算法，我们把样本看成是连续的label，采用fern回归算法提高了跟踪的准确度。
+\item 提出了一种基于structure output的模型结构，采用数据驱动PCANet的方法得到目标的特征表达。学习更新阶段，不人工设置样本的标签，利用样本的空间位置信息，改进online multi-label svm 算法使其适应跟踪应用的需求。整个算法充分利用了先验知识和样本自身的属性，极大的减少了人工干预在算法中的作用，提高了算法的自适应能力。
 \end{itemize}
 
 \textbf{去光照处理在单一样本人脸识别中必要性研究} \hfill 2012.1-2012.6 \\
@@ -62,13 +74,20 @@
 \item 直方图均衡化作为人脸识别预处理步骤一定情况下会产生负面影响。
 \end{itemize}%\\ [10pt]
 
-\textbf{非特定视觉目标的显著性检测和目标检测} \hfill 2013.5-now \\
-\begin{itemize}
-\item 利用深度学习学习到目标梯度的一个先验信息，利用这个先验信息进行图像的显著性检测，这里面还有一些加速算法，显著性检测能做到200fps。
-\item 目标检测跟目标跟踪其实很多东西是相通的，我提出通过深度学习加上弹性形变模型得到目标的特征表达，利用显著性检测的方法提高检测的速度。
-\end{itemize}%\\ [10pt]
+%\textbf{非特定视觉目标的显著性检测和目标检测} \hfill 2013.5-now \\
+%\begin{itemize}
+%\item 利用深度学习学习到目标梯度的一个先验信息，利用这个先验信息进行图像的显著性检测，这里面还有一些加速算法，显著性检测能做到200fps。
+%\item 目标检测跟目标跟踪其实很多东西是相通的，我提出通过深度学习加上弹性形变模型得到目标的特征表达，利用显著性检测的方法提高检测的速度。
+%\end{itemize}%\\ [10pt]
 
-
+\section{发表文章}
+X. Yang, Q. Xiao, S. Wang, and P. Liu. Real-time Tracking via Deformable Structure Regression Learning. In Proc. International Conference on Pattern Recognition, 2014. \\
+X. Yang, H. Sun, H. Qin, and S. Wang. Is Illumination Normalization as Image Preprocessing Really Useless for Face Recognition?. In Proc. MACE, 2012, vol. 5, pp. 3221-3225.
+%\begin{itemize}
+%\item
+%\item
+%\item
+%\end{itemize}
 
 \section{荣誉奖励}
 \begin{tabular}{l l l}
@@ -81,6 +100,7 @@
  & 2009 & \textbf{\textit{全国大学生电子设计竞赛陕西赛区二等奖}} \\ [5pt]
  & 2008 & \textit{优秀学生标兵} \\ [10pt]
 社团类： & 2010 & \textbf{\textit{2010届优秀学生干部}(1\%)} \\ [5pt]
+ & 2011 & \textbf{\textit{中国科学院三好学生}(2\%)} \\ [5pt]
  & 2007,2009 & \textit{优秀共青团干部} \\ [5pt]
  & 2013 & \textit{优秀科普志愿者} \\ [10pt]
 文体类： & & \textit{多次校级篮球赛足球赛获奖，校篮球三分球赛季军}
