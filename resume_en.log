@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.12.10)  29 SEP 2014 22:19
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.12.10)  30 SEP 2014 19:12
 entering extended mode
 **C:/Users/xixi/Desktop/resume/resume_en.tex
 (C:/Users/xixi/Desktop/resume/resume_en.tex
@@ -185,37 +185,30 @@ LaTeX Font Info:    ... okay on input line 7.
 ) <yang.jpg, id=1, 72.27pt x 101.178pt>
 File: yang.jpg Graphic file (type jpg)
  <use yang.jpg>
-Package pdftex.def Info: yang.jpg used on input line 19.
+Package pdftex.def Info: yang.jpg used on input line 11.
 (pdftex.def)             Requested size: 67.64192pt x 94.70282pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--37
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 44.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 42.
 (C:\CTEX\MiKTeX\tex\latex\base\omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 44.
-
-Overfull \hbox (22.12138pt too wide) in paragraph at lines 46--47
-[]\OT1/cmr/m/n/10 Research in-ter-est-s: \OT1/cmr/bx/n/10 ma-chine learn-ing, p
-at-tern recog-ni-tion, com-put-er vi-sion\OT1/cmr/m/n/10 ,\OT1/cmr/bx/n/10 unsp
-ecified
- []
-
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 47.
+(Font)              <7> on input line 45.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 47.
+(Font)              <5> on input line 45.
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
@@ -236,14 +229,14 @@ Here is how much of TeX's memory you used:
  5421 multiletter control sequences out of 15000+200000
  5426 words of font info for 20 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 29i,6n,21p,329b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,6n,21p,312b,291s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 bx10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/CTEX/MiK
 TeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/CTEX/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmr10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10
 .pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/CTEX/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on resume_en.pdf (1 page, 178523 bytes).
+Output written on resume_en.pdf (1 page, 178359 bytes).
 PDF statistics:
  35 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

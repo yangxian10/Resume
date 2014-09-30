@@ -1,0 +1,48 @@
+\documentclass[line, margin]{letter}
+%\usepackage{CJK}
+%\usepackage{url}
+%\usepackage{graphicx}
+%\usepackage{wrapfig}
+
+\begin{document}
+\signature{\textbf{Xian Yang}\\15952446119\\
+yangxian10@gmail.com\\No.398 Ruoshui street\\ industrial district, Suzhou}           % name for signature
+\longindentation=0pt                       % needed to get closing flush left
+\let\raggedleft\raggedright                % needed to get date flush left
+
+\begin{letter}{Opera Solutions Ltd. \\ 18th Floor, Yongda International Tower\\
+ 2277 Longyang Road, Pudong New Area\\ Shanghai 201204, China}
+%\signature{Xian Yang}
+%\location{No.398 Ruoshui street, industrial district, Suzhou}
+%\telephone{+86 15952446119}
+\opening{Dear recruiter of Opera Solutions Ltd.}
+At the suggestion of Shu Wen,
+with a suitable education background demonstrated
+and a keen desire to be part of Opera Solution,
+I am submitting my resume and wish to apply for the position of analytics specialist.
+
+Although short on experience of statistical tools,
+I am full of effort and enthusiasm.
+I will get PhD degree of Chinese Academy of Sciences in 2015.
+During the period of school,
+I have got scholarships and titles of honor for many times.
+My problem solving, analytics skill, leadership abilities and English proficiency are as follows:
+
+Rich experience on C/C++, Python and Matlab,
+including implementation machine learning algorithm application.
+
+Familiar with the opensource projects about optimization methods and statistical learning,
+such as scikit-learn, OpenCV and so on,
+and can make good use of them for application development.
+
+Fluent oral and written English, CET-6 passed.
+
+
+Thank you for your time and consideration
+and I anticipate the opportunity for interview with you at your convenience.
+
+\closing{Best Regards,}
+
+\end{letter}
+
+\end{document}
